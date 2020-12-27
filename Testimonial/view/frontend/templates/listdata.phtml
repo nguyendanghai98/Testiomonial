@@ -1,0 +1,17 @@
+<?php
+    $collection = $this->getTestCollection();
+?>
+<table class="list">
+    <h3>Testimonial Collection</h3>
+    <tbody>
+        <?php foreach ($collection as $key => $data): ?>
+
+        <?php echo $data->getTitle(); ?>
+        <?php echo $data->getContent(); ?>
+        <?php echo $data->getRate(); ?>
+        <?php echo $data->getCustomer(); ?>
+        <?php echo $data->getCustomer_Position(); ?>
+        <?php echo $data->getActive(); ?>
+        <?php endforeach; ?>
+    </tbody>
+</table>

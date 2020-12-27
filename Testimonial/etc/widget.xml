@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+	<widget class="AHT\Testimonial\Block\Widget\Test" id="test_widget">
+		<label>Testimonial test widget</label>
+		<description></description>
+		<parameters>
+			<parameter name="test" sort_order="10" visible="true" xsi:type="text">
+				<label>Title</label>
+			</parameter>
+		</parameters>
+		
+	</widget>
+</widgets>
